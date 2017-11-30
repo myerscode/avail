@@ -1,0 +1,51 @@
+{
+  "name": "myerscode/avail",
+  "description": "A collection of global helper functions and facades for Laravel.",
+  "keywords": [
+    "laravel",
+    "myerscode",
+    "array",
+    "directory",
+    "image",
+    "number",
+    "string",
+    "time",
+    "image",
+    "utilities",
+    "utility",
+    "helper"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "myerscode",
+      "email": "team@myerscode.com",
+      "homepage": "https://myerscode.com"
+    },
+    {
+      "name": "Fred Myerscough",
+      "email": "fred@myerscough.co.uk",
+      "homepage": "https://fredmyerscough.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Myerscode\\Avail\\": "src"
+    },
+    "files": [
+      "src/global.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "myerscode/utilities-bags": "~0.0.1",
+    "myerscode/utilities-numbers": "~0.0.1",
+    "myerscode/utilities-strings": "~0.0.1"
+  }
+}
