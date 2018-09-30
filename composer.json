@@ -46,7 +46,7 @@
     "php": ">=7.0",
     "myerscode/utilities-bags": "~0.0.1",
     "myerscode/utilities-numbers": "~0.0.1",
-    "myerscode/utilities-strings": "~0.0.1"
+    "myerscode/utilities-strings": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~6.0"
