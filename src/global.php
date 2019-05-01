@@ -35,3 +35,15 @@ if (!function_exists('bag')) {
         return new \Myerscode\Utilities\Bags\Utility($bag);
     }
 }
+
+if (!function_exists('web')) {
+    /**
+     * @param string $url
+     *
+     * @return \Myerscode\Utilities\Web\Utility
+     */
+    function web($url)
+    {
+        return new \Myerscode\Utilities\Web\Utility($url);
+    }
+}
